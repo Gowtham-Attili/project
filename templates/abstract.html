@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+ 
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: blue;
+   font-size: 45px
+}
+
+p {
+  text-indent: 20px;
+  text-align: justify;
+  letter-spacing: 1px;
+   font-size: 55px;
+}
+ .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+ 
+.container {
+  max-width: 2050px;
+  font-size: 64px;
+  font-weight: 600;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80);
+}
+  
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Abstract</h1>
+  <p>In India, we all know that Agriculture is the
+backbone of the country. This paper predicts the yield of almost
+all kinds of crops that are planted in India. This script makes
+novel by the usage of simple parameters like State, district,
+season, area and the user can predict the yield of the crop in
+which year he or she wants to. The paper uses advanced
+regression techniques like Kernel Ridge, Lasso and ENet
+algorithms to predict the yield and uses the concept of Stacking
+Regression for enhancing the algorithms to give a better
+prediction
+ </P>
+  
+ 
+
+ <input type="button" class= "button"onclick="window.location.href='{{url_for('upload')}}';" value="NEXT" />
+ </div>
+</body>
+
+</html>
